@@ -79,15 +79,15 @@ document.querySelectorAll('a[target="_blank"]').forEach(link => {
     });
 });
 
-// Add subtle parallax effect to hero section
-window.addEventListener('scroll', function() {
-    const scrolled = window.pageYOffset;
-    const parallax = document.querySelector('.hero');
-    if (parallax) {
-        const speed = scrolled * 0.5;
-        parallax.style.transform = `translateY(${speed}px)`;
-    }
-});
+// Parallax effect disabled to prevent scrolling interference
+// window.addEventListener('scroll', function() {
+//     const scrolled = window.pageYOffset;
+//     const parallax = document.querySelector('.hero');
+//     if (parallax) {
+//         const speed = scrolled * 0.5;
+//         parallax.style.transform = `translateY(${speed}px)`;
+//     }
+// });
 
 // Add typing effect to hero title (optional enhancement)
 function typeWriter(element, text, speed = 100) {
