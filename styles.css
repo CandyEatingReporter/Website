@@ -113,8 +113,7 @@ html {
     justify-content: center;
     text-align: center;
     color: white;
-    position: relative;
-    overflow: hidden;
+    position: static;
 }
 
 .hero::before {
@@ -439,9 +438,9 @@ section {
 /* Skills Section */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-    max-width: 1000px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
