@@ -135,6 +135,7 @@ html {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    margin-top: 2rem;
     animation: fadeInUp 1s ease;
     line-height: 1.2;
 }
