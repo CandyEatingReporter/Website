@@ -243,6 +243,9 @@ section {
 /* About Section */
 .about {
     background-color: #f8f9fa;
+    position: relative;
+    z-index: 10;
+    margin-top: 0;
 }
 
 .about-text {
