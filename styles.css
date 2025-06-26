@@ -127,14 +127,16 @@ html {
     position: static;
     z-index: auto;
     max-width: 800px;
-    padding: 0 20px;
+    padding: 20px;
+    width: 100%;
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
     animation: fadeInUp 1s ease;
+    line-height: 1.2;
 }
 
 .hero-subtitle {
@@ -697,6 +699,12 @@ section {
 }
 
 /* Responsive Design */
+@media (min-width: 1200px) {
+    .hero-title {
+        font-size: 3.2rem;
+    }
+}
+
 @media (max-width: 768px) {
     .nav-menu {
         position: fixed;
