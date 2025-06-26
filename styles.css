@@ -200,19 +200,19 @@ html {
 
 .btn-primary:hover {
     background-color: transparent;
-    border-color: white;
-    color: white;
+    border-color: #3498db;
+    color: #3498db;
 }
 
 .btn-secondary {
     background-color: transparent;
-    color: white;
-    border: 2px solid white;
+    color: #3498db;
+    border: 2px solid #3498db;
 }
 
 .btn-secondary:hover {
-    background-color: white;
-    color: #333;
+    background-color: #3498db;
+    color: white;
 }
 
 /* Section Styles */
