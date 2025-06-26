@@ -10,6 +10,8 @@ body {
     line-height: 1.6;
     color: #333;
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -106,7 +108,7 @@ html {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
+    height: 80vh;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
     align-items: center;
@@ -114,6 +116,9 @@ html {
     text-align: center;
     color: white;
     position: static;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
 }
 
 
@@ -210,6 +215,9 @@ html {
 /* Section Styles */
 section {
     padding: 80px 0;
+    margin: 0;
+    display: block;
+    width: 100%;
 }
 
 .section-title {
@@ -235,6 +243,11 @@ section {
 /* About Section */
 .about {
     background-color: #f8f9fa;
+    margin: 0;
+    margin-top: 0;
+    padding: 80px 0;
+    position: relative;
+    z-index: 2;
 }
 
 .about-text {
@@ -249,6 +262,15 @@ section {
 }
 
 /* Education Section */
+.education {
+    background-color: #ffffff;
+    margin: 0;
+    margin-top: 0;
+    padding: 80px 0;
+    position: relative;
+    z-index: 2;
+}
+
 .education-timeline {
     max-width: 800px;
     margin: 0 auto;
