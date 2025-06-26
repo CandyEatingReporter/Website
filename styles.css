@@ -113,7 +113,8 @@ html {
     justify-content: center;
     text-align: center;
     color: white;
-    position: static;
+    position: relative;
+    overflow: hidden;
 }
 
 .hero::before {
@@ -125,6 +126,7 @@ html {
     bottom: 0;
     background: rgba(0, 0, 0, 0.3);
     z-index: 1;
+    pointer-events: none;
 }
 
 .hero-content {
@@ -156,9 +158,9 @@ html {
 }
 
 .profile-image {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
     object-fit: cover;
     border: 2px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -247,10 +249,11 @@ section {
 /* About Section */
 .about {
     background-color: #f8f9fa;
-    position: static;
-    z-index: auto;
+    position: relative;
+    z-index: 10;
     margin-top: 0;
     clear: both;
+    transform: translateZ(0);
 }
 
 .about-text {
